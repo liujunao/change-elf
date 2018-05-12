@@ -23,11 +23,12 @@
    5. 修改elf 的入口地址为嵌入的程序首地址，当嵌入程序执行结束再跳转到原 elf 文件的首地址，使程序继续执行原本的 elf 文件程序，再修改 elf 的程序头，节区头
    6. 通过 fclose(fp) 关闭 elf 文件
 
+4. 懂得如何根据文件信息修改对应的机器码
+
    **参考：**
 
    1. [ELF文件病毒的分析和编写](https://blog.csdn.net/luojiafei/article/details/7206063)  
    2. [自己动手写病毒—ELF文件病毒](https://blog.csdn.net/luojiafei/article/details/7225818) 
 
-   ​		
+     ​	
 
- 
